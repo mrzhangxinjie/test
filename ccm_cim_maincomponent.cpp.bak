@@ -3959,8 +3959,6 @@ WORD32  CCM_CIM_MainComponentFsm::SendToOamSymbolMapReq(VOID)
 *    
 * -------------------------------------------------------------------------
 **<FUNC>**********************************************************************/
-
-/*
 WORD32  CCM_CIM_MainComponentFsm::FillSymbolMapReq(BYTE ucCFI,T_RnlcOamSymbleMapReq &tRnlcOamSymbleMapReq,const TSuperCPInfo &tCpInfo)
 {
     BYTE ucCpType = GetJobContext()->tCIMVar.tCellCfgInfoForV25.tCellCfgBaseInfoForV25.ucPhyChCPSel;
@@ -4016,8 +4014,6 @@ WORD32  CCM_CIM_MainComponentFsm::FillSymbolMapReq(BYTE ucCFI,T_RnlcOamSymbleMap
     return RNLC_SUCC;
 }
 
-
-*/
 /*<FUNC>***********************************************************************
 * 函数名称: InitOamAntSymbel
 * 功能描述:初始化符号位图信息
